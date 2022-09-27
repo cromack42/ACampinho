@@ -12,7 +12,7 @@ consign({})
 .include('models')
 .then('controllers')
 .then('routes')
-.into(app);
+.into('app');
 
 app.listen(3000, ()=>{
   console.log("A Agenda do Campinho está no ar!!!")
